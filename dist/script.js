@@ -18,7 +18,7 @@ const airpods = {
 
 for (let i = 0; i < frameCount; i++) {
   const img = new Image();
-  img.src = currentFrame(i);
+  img.src = `img/${currentFrame(i)}`;
   images.push(img);
 }
 
