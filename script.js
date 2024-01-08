@@ -3,8 +3,8 @@ console.clear();
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
-canvas.width = 1920;
-canvas.height = 1080;
+canvas.width = 1280;
+canvas.height = 720;
 
 const frameCount = 144;
 const currentFrame1 = index => (
