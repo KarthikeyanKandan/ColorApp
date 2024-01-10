@@ -1,30 +1,207 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Apple AirPods Pro Animation (final demo)</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Color NAV</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+     <!-- <nav class="apple-navbar">
+        <div class="nav-content">
+          <ul class="nav-items">
+            <li>
+              <a href=""><ion-icon name="logo-apple"></ion-icon></a>
+            </li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Mac</a></li>
+            <li><a href="">iPad</a></li>
+            <li><a href="">iPhone</a></li>
+            <li><a href="">Watch</a></li>
+            <li><a href="">AirPods</a></li>
+            <li><a href="">TV & Home</a></li>
+            <li><a href="">Only on Apple</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Support</a></li>
+            <li>
+              <a href=""><ion-icon name="search-outline"></ion-icon></a>
+            </li>
+            <li>
+              <a href=""><ion-icon name="bag-outline"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+      </nav> -->
+      <nav class="airpods-navbar">
+        <div class="nav-content">
+          <div class="nav-logo"><a href="#">Color <span class="logo-nav">NAV</span></a></div>
+          <ul class="nav-items">
+            <li><button disabled>Home</button></li>
+            <li><button>Works</button></li>
+            <li><button class="buy-btn">Contact</button><br>
+              <button style="position: absolute; margin-top: -18px; z-index: -1; filter: blur(100px); opacity: 0.6;" class="buy-btn">Contact</button></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-</head>
-<body>
-  <h1 class="header-section">Scroll to see the before/after</h1>
+    <main>
+      <section class="section-01 scroll-section hero-lightpass">
+        <div class="main-elem">
+          <small class="title-small">Unleash the Power of </small>
+          <h2 style="margin:-15px 0 -80px 0;">Color with </h2><h1 class="title-nav">N.A.V</h1>
+          <a href=""
+            >Explore <span>My Projects</span>
+            <ion-icon name="play-circle-outline"></ion-icon>
+          </a>
+        </div>
+        <div class="canvas-elem">
+          <canvas id="hero-lightpass"></canvas>
+        </div>
+        <div class="msg-elem msg-elem-01">
+          <p>
+            Commanding the Power of <br />
+            Davinci Resolve
+          </p>
+        </div>
+        <div class="msg-elem msg-elem-02">
+          <p>
+            Navigating the Spectrum of <br />
+            HDR and SDR workflows.
+          </p>
+        </div>
+        <div class="msg-elem msg-elem-03">
+          <p>
+            Sculpting Color Grading <br />
+            to Perfectly Complement Each Project.
+          </p>
+        </div>
+        <div class="msg-elem msg-elem-04">
+          <p>Transforming Your Vision <br>into a Cinematic Masterpiece.</p>
+        </div>
+      </section>
 
-<section class="comparisonSection">
-  <div class="comparisonImage beforeImage">
-    <img src="img/PIKEMAN_1.4.1.png" alt="before">
-  </div>
-  <div class="comparisonImage afterImage">
-    <img src="img/PIKEMAN_1.4.3.png" alt="after">
-  </div>
-</section>
+      <section class="section-02 scroll-section head-bob-turn">
+        <div class="msg-elem">
+          <small>Experience</small>
+          <h2>Decades of Unrivaled Color Grading <br>Expertise at Your Disposal.</h2>
+        </div>
+        <div class="canvas-elem">
+          <canvas id="head-bob-turn"></canvas>
+        </div>
+      </section>
 
-<h1 class="header-section">What did you think?</h1>
-<!-- partial:index.partial.html -->
-<canvas id="hero-lightpass" />
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js'></script><script  src="./script.js"></script>
+      <section class="section-04 static-section explode-tips">
+        <div class="section-04-1">
+          <img
+            src="https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/04-explode-tips/0000.jpg"
+            alt=""
+          />
+          <div class="text">
+            Breathing Life into Diverse Projects, from Indie Films to High-Impact Commercials.
+          </div>
+        </div>
 
-</body>
+        <div class="section-04-2">
+          <img
+            src="https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/04-explode-tips/0080.jpg"
+            alt=""
+          />
+          <div class="text">
+            Harnessing the Full Spectrum of Color to Enhance and Amplify Storytelling and Mood.
+          </div>
+        </div>
+
+        <div class="section-04-3">
+          <img
+            src="https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/04-explode-tips/0138.jpg"
+            alt=""
+          />
+          <div class="text">
+            Delivering Unparalleled Quality, Tailored to the Unique Needs of Each Project.
+          </div>
+        </div>
+      </section>
+
+      <section class="section-05 static-section flip-for-nc">
+        <div class="section-05-1">
+          <img
+            src="https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/05-flip-for-nc/0026.jpg"
+            alt=""
+          />
+          <div class="text">
+            <p>Collaboration</p>
+            <h1>
+              Crafting Your Vision <br />
+              Through Collaborative Brilliance.
+            </h1>
+          </div>
+        </div>
+
+        <div class="section-05-2">
+          <img
+            src="https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/05-flip-for-nc/0054.jpg"
+            alt=""
+          />
+          <div class="text">
+            Embracing Feedback and Collaboration to Ensure Your Vision Takes Center Stage.
+          </div>
+        </div>
+      </section>
+
+      <section class="section-06 static-section transparency-head">
+        <img
+          src="https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/06-transparency-head/0008.jpg"
+          alt=""
+        />
+        <div class="text">
+          <p>
+            Want to bring your vision to life? With my expertise in color grading, 
+            I can transform your footage into a cinematic masterpiece. 
+            My services allow your project's true colors to shine through, 
+            enhancing the overall mood and storytelling.
+
+          </p>
+          <p>
+            And when you're working on a project in a challenging environment, 
+            my advanced color correction techniques can help to ensure that ever
+            y detail is captured perfectly. I focus on the nuances of each scene, 
+            bringing clarity and depth to your visuals.
+
+          </p>
+        </div>
+      </section>
+      <section class="image-flow-section" id="gallerySection">
+        <h1><i>Randomised</i> image background animation with gsap</h1>
+      
+        <h2 class="credit"><a href="https://thisisadvantage.com" target="_blank">Made by Advantage</a></h2>
+      
+      
+    </section>
+
+    </main>
+
+    <footer>
+      <div class="content">
+        <small>Copyright © 2022 CraftsPro Studios. All rights reserved.</small>
+        <small>India.</small>
+      </div>
+    </footer>
+  </body>
+
+  <!-- Ionicons Usage -->
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <!-- ScrollMagic CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+  <!-- JS Files -->
+  <script src="js/script.js"></script>
 </html>
